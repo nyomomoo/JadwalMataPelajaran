@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.jadwalmatapelajaran">
+
+    <application
+        android:name=".BaseApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/sekolah"
+        android:label="Jadwal Mata Pelajaran"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.SplashActivity"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AddActivity"
+            android:label="Tambah Mata Pelajaran"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.EditActivity"
+            android:label="Edit Mata Pelajaran"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".activity.InfoActivity"
+            android:label="App Info"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>
