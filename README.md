@@ -1,4 +1,5 @@
-# JadwalMataPelajaran
+# Jadwal Mata Pelajaran 
+<hr></hr>
 
 <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/12121452/20379908/4910c20a-acd1-11e6-9253-01d00cd27803.png" width="350"/>
